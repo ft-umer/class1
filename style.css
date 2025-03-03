@@ -78,3 +78,34 @@
   padding: 10px;
   border: 1px solid black;
 }
+
+table,th,td{
+  border: 1px solid black;
+  width: 50%;
+  border-collapse: collapse;
+} 
+
+table th,table td{
+  padding: 5px;
+}
+
+table td{
+  background-color: grey;
+}
+
+.table_div{
+  width: 70%;
+}
+
+tr:hover{
+  background-color: aqua;
+  color: white;
+  border-bottom: 1px solid black;
+  /* border: none; */
+  
+}
+
+table th,table td{
+  text-align: left;
+}
+
